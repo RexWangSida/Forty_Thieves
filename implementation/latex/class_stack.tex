@@ -1,0 +1,139 @@
+\hypertarget{class_stack}{}\section{Stack$<$ T $>$ Class Template Reference}
+\label{class_stack}\index{Stack$<$ T $>$@{Stack$<$ T $>$}}
+
+
+Class representing a stack of T type.  
+
+
+
+
+{\ttfamily \#include $<$Stack.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_stack_acf1a315995090bf9cf957ac84175c82c}{Stack} (std\+::vector$<$ T $>$ s)
+\begin{DoxyCompactList}\small\item\em Constructs a new stack of T type. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_stack_aefee698059467258bbd79045aca62a63}\label{class_stack_aefee698059467258bbd79045aca62a63}} 
+\hyperlink{class_stack_aefee698059467258bbd79045aca62a63}{Stack} ()
+\begin{DoxyCompactList}\small\item\em Constructs a new empty \hyperlink{class_stack}{Stack} of T types(default constructor) \end{DoxyCompactList}\item 
+\hyperlink{class_stack}{Stack}$<$ T $>$ \hyperlink{class_stack_a2f702496e109485c2ce9261f0c629dd1}{push} (T e)
+\begin{DoxyCompactList}\small\item\em Push an element to the stack. \end{DoxyCompactList}\item 
+\hyperlink{class_stack}{Stack}$<$ T $>$ \hyperlink{class_stack_a79085ca78d75f61838c1c2b8f9de968d}{pop} ()
+\begin{DoxyCompactList}\small\item\em Pop an element to the stack. \end{DoxyCompactList}\item 
+T \hyperlink{class_stack_ad461f6de40c8672dbf743068f4515061}{top} ()
+\begin{DoxyCompactList}\small\item\em Get the element on the top of the stack. \end{DoxyCompactList}\item 
+\hyperlink{_card_types_8h_a56638ee9d162e8cce3a15f92d2023d6e}{nat} \hyperlink{class_stack_a6aad92f7dc41a4dcd858bb4ff1f96cec}{size} ()
+\begin{DoxyCompactList}\small\item\em Get the size of the stack. \end{DoxyCompactList}\item 
+std\+::vector$<$ T $>$ \hyperlink{class_stack_a928be02635c7f5bf2bab3699aee07f52}{to\+Seq} ()
+\begin{DoxyCompactList}\small\item\em Convert the stack to a sequence of T. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class Stack$<$ T $>$}
+
+Class representing a stack of T type. 
+
+The class supports fundamental utilities of a stack 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_stack_acf1a315995090bf9cf957ac84175c82c}\label{class_stack_acf1a315995090bf9cf957ac84175c82c}} 
+\index{Stack@{Stack}!Stack@{Stack}}
+\index{Stack@{Stack}!Stack@{Stack}}
+\subsubsection{\texorpdfstring{Stack()}{Stack()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\hyperlink{class_stack}{Stack}$<$ T $>$\+::\hyperlink{class_stack}{Stack} (\begin{DoxyParamCaption}\item[{std\+::vector$<$ T $>$}]{s }\end{DoxyParamCaption})}
+
+
+
+Constructs a new stack of T type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & A sequence of T to be implemented as a stack \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_stack_a79085ca78d75f61838c1c2b8f9de968d}\label{class_stack_a79085ca78d75f61838c1c2b8f9de968d}} 
+\index{Stack@{Stack}!pop@{pop}}
+\index{pop@{pop}!Stack@{Stack}}
+\subsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\hyperlink{class_stack}{Stack}$<$T$>$ \hyperlink{class_stack}{Stack}$<$ T $>$\+::pop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pop an element to the stack. 
+
+\begin{DoxyReturn}{Returns}
+A new stack without the poped element 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_stack_a2f702496e109485c2ce9261f0c629dd1}\label{class_stack_a2f702496e109485c2ce9261f0c629dd1}} 
+\index{Stack@{Stack}!push@{push}}
+\index{push@{push}!Stack@{Stack}}
+\subsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\hyperlink{class_stack}{Stack}$<$T$>$ \hyperlink{class_stack}{Stack}$<$ T $>$\+::push (\begin{DoxyParamCaption}\item[{T}]{e }\end{DoxyParamCaption})}
+
+
+
+Push an element to the stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & An element to be pushed of T type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new stack with the pushed element 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_stack_a6aad92f7dc41a4dcd858bb4ff1f96cec}\label{class_stack_a6aad92f7dc41a4dcd858bb4ff1f96cec}} 
+\index{Stack@{Stack}!size@{size}}
+\index{size@{size}!Stack@{Stack}}
+\subsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\hyperlink{_card_types_8h_a56638ee9d162e8cce3a15f92d2023d6e}{nat} \hyperlink{class_stack}{Stack}$<$ T $>$\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the size of the stack. 
+
+\begin{DoxyReturn}{Returns}
+The size of the stack, which is represented by an natural number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_stack_ad461f6de40c8672dbf743068f4515061}\label{class_stack_ad461f6de40c8672dbf743068f4515061}} 
+\index{Stack@{Stack}!top@{top}}
+\index{top@{top}!Stack@{Stack}}
+\subsubsection{\texorpdfstring{top()}{top()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T \hyperlink{class_stack}{Stack}$<$ T $>$\+::top (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the element on the top of the stack. 
+
+\begin{DoxyReturn}{Returns}
+A T type element at the top of the stack 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_stack_a928be02635c7f5bf2bab3699aee07f52}\label{class_stack_a928be02635c7f5bf2bab3699aee07f52}} 
+\index{Stack@{Stack}!to\+Seq@{to\+Seq}}
+\index{to\+Seq@{to\+Seq}!Stack@{Stack}}
+\subsubsection{\texorpdfstring{to\+Seq()}{toSeq()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+std\+::vector$<$T$>$ \hyperlink{class_stack}{Stack}$<$ T $>$\+::to\+Seq (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Convert the stack to a sequence of T. 
+
+\begin{DoxyReturn}{Returns}
+A sequence of T, whose elements are in the same order as in stack 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{_stack_8h}{Stack.\+h}\end{DoxyCompactItemize}
