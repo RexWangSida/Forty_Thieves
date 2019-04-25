@@ -6,3 +6,4 @@
 *.h linguist-detectable=false
 *.js linguist-detectable=false
 *.tex linguist-detectable=false
+*.css linguist-detectable=false
